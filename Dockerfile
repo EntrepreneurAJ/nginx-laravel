@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 MAINTAINER Aiden Andrews-McDermott <aj@peoplerange.com>
 
-ADD docker/nginx/nginx.conf /etc/nginx/nginx.conf
+ADD nginx.conf /etc/nginx/nginx.conf
 
 RUN mkdir -p /run/nginx
 
